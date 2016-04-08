@@ -1,6 +1,8 @@
 ## Random Demo on Express
 
 ### Build Instructions
-```npm install
+```
+npm install
 grunt
-node app.js```
+node app.js
+```
