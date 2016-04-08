@@ -1,7 +1,23 @@
 extends layout
 
 block content
-	h1 Product Hunt
+	h2.center Product Hunt
+	mixin item(no)
+		li
+			img(src='http://lorempixel.com/800/400/nature/#{no}')
+			div.caption.left-align
+				h5 Big Tagline
+				p Yeah
+			
+	div.slider
+		ul.slides
+			- for (var x = 1; x < 6; x++)
+				+item(x)
+			
+	
+		
 	div.collection
 		- for (var x = 0; x < 15; x++)
-			a.collection-item Text
+			a.collection-item
+				img.prodImg(src='images/Octocat.jpg', width=100)
+				h5.prodTitle Very Cool Shizzy Product
