@@ -1,2 +1,6 @@
-# quickstart-bootstrap
-Basic HTML5/Bootstrap template
+## Random Demo on Express
+
+### Build Instructions
+```npm install
+grunt
+node app.js```
