@@ -1,6 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
 body {
 	padding: 50px;
-	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	font: 14px "Slabo 27px";
 	width: 70%;
 	display: block;
 	margin: 1em auto !important;
@@ -9,6 +10,9 @@ body {
 }
 a {
 	color: #00B7FF;
+}
+li {
+	list-style: none
 }
 .carousel {
 	
@@ -23,9 +27,19 @@ a {
 	height: 120px;
 }
 .prodTitle {
-	margin-left: 120px;
+	margin-left: calc(100px + 1em);
 	margin-top: 0;
 }
 .prodImg {
 	float: left
+}
+.material-icons {
+	margin-left: 2em;
+	cursor: pointer
+}
+.material-icons:hover {
+	color: teal;
+}
+.upvotes {
+	right: 75% !important;
 }
