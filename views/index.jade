@@ -6,18 +6,22 @@ block content
 		li
 			img(src='http://lorempixel.com/800/400/nature/#{no}')
 			div.caption.left-align
-				h5 Big Tagline
-				p Yeah
-			
-	div.slider
-		ul.slides
-			- for (var x = 1; x < 6; x++)
-				+item(x)
-			
-	
-		
+				h5 
+					a(href='#') Featured Product
+				p Brief
+	//
+		div.slider
+			ul.slides
+				- for (var x = 1; x < 6; x++)
+					+item(x)
+
 	div.collection
 		- for (var x = 0; x < 15; x++)
-			a.collection-item
+			li.collection-item.hoverable
 				img.prodImg(src='images/Octocat.jpg', width=100)
-				h5.prodTitle Very Cool Shizzy Product
+				a(href='prod#{x}')
+					h5.prodTitle.deep-orange-text.accent-2 Very Cool Product
+				span.chip.right
+					a(href='#') Get It
+				i.tiny.material-icons.waves-effect thumb_up
+				span.upvotes.badge
