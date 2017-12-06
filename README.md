@@ -1,16 +1,12 @@
 ## Random Demo on Express
 
+####Installation requirements
+node -  which can be installed from [here](https://nodejs.org/en/)
+grunt - which can be installed from [here](https://gruntjs.com/installing-grunt)
+
 ### Build Instructions
 ```
 npm install
 grunt
 ```
 
-### Build Instructions for Windows 10 OS
-```
-npm install
-npm install -g grunt-cli
-npm install grunt --save-dev
-npm install grunt-contrib-concat --save-dev
-grunt
-```
