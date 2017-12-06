@@ -2,8 +2,10 @@
 
 
 ### Installation requirements
-node -  which can be installed from [here](https://nodejs.org/en/)
-grunt - which can be installed from [here](https://gruntjs.com/installing-grunt)
+```
+node
+grunt
+```
 
 ### Build Instructions
 ```
@@ -11,3 +13,5 @@ npm install
 grunt
 ```
 
+[node installation guide](https://nodejs.org/en/)
+[grunt installation guide](https://gruntjs.com/installing-grunt)
