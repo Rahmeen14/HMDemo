@@ -12,5 +12,5 @@ grunt
 npm install
 grunt
 ```
-
-*[node installation guide](https://nodejs.org/en/) *[grunt installation guide](https://gruntjs.com/installing-grunt)
+1. [node installation guide](https://nodejs.org/en/) 
+2. [grunt installation guide](https://gruntjs.com/installing-grunt)
